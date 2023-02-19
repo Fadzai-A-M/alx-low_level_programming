@@ -13,7 +13,7 @@ int main(void)
 		while (i <= 57)
 
 		{
-			printf("%c\n", i++);
+			printf("%c", i++);
 
 		}
 
