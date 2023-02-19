@@ -10,6 +10,7 @@ int main(void)
 
 {
 	int i = 97;
+	int x = 65;
 
 	while (i <= 122)
 
@@ -19,7 +20,6 @@ int main(void)
 		i++;
 	}
 
-	int x = 65;
 
 	while (x <= 90)
 
