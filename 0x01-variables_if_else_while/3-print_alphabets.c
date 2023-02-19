@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(i);
 
-		i++
+		i++;
 	}
 
 	int x = 65;
