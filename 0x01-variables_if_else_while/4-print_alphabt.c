@@ -6,24 +6,28 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	int i = 97
 
-		while (i <= 122);
-	
-	if (i != 101 && i != 113);
+
+{
+	int i = 97;
+
+	while (i <= 122)
 
 	{
-		putchar(i);
+
+		if (i != 101 && i != 113)
+
+		{
+			putchar(i);
+
+		}
 
 		i++;
 
 	}
-	
-	{
-		putchar('\n');
 
-	}
+
+	putchar('\n');
 
 	return (0);
 
