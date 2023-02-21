@@ -16,6 +16,6 @@ int _putchar(char c)
 void  putchar_(void)
 
 {
-	printf("_putchar\n");
+	printf("\_putchar\n");
 
 }
