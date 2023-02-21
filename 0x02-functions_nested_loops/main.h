@@ -8,14 +8,13 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
+
+
 int _putchar(char c)
+
+	char _Putchar[];
+	
+	_putchar = "_putchar";
 {
-	return (write(1, &c, 1));
-}
-
-void  putchar_(void)
-
-{
-	write(1, "_putchar\n", 10);
-
+	return (write(1,"%s",11));
 }
