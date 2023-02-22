@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * prints the alphabet, in lowercase, followed by a new line using putchar
+ * print_alphabet - Function that prints the alphabet
  *
- * Return (void)
+ * Return: Always void (success)
  */
-
 void print_alphabet(void)
 
 {
