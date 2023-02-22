@@ -11,7 +11,9 @@
 int _islower(int c)
 
 {
-	_islower(111);
+	int c[] = {111, 108, 99, 73, 115, 70, 20, 85, 110};
+	
+	_islower(c);
 
 
 	return (1);
