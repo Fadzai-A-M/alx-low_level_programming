@@ -11,29 +11,18 @@
 int _islower(int c)
 
 {
-	int l;
+
+ if (c >= a && c <= z)
+
+ {
+	 return (1);
 	
-	l = _islower('o');
+ } 
+ 
+ else 
 
-	_putchar(l + '0');
-
-	l = _islower(108);
-
-	_putchar(l + '0');
-
-	l = _islower('c');
-
-	_putchar(l + '0');
-
-	l = _islower('I');
-
-	_putchar(l + '0');
-
-	l = _islower('s');
-
-	_putchar(l + 0);
-
-
+ {
 	return (0);
+ }	
 
 }
