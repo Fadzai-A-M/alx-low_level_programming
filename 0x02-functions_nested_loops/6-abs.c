@@ -3,27 +3,21 @@
 /**
  * _abs - computes the absolute value of an integer
  *
- * @int: value to be delcared
+ * @x: value to be delcared
  * Return: Always 0 (Success)
  */
 
-int _abs(int)
+int _abs(int x)
 
 {
-	int i;
-
-	if (i < 0)
+	if (x < 0)
 
 	{
-		return (-i);
-
+		return (-x);
 	}
 
-	if (i > 0)
-
+	else
 	{
-		return (i);
-
+		return (x);
 	}
-
 }
