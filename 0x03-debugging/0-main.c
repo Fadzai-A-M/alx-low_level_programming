@@ -2,6 +2,9 @@
 
 /**
 * main - tests function that prints if integer is positive or negative
+*
+* @i: vlaue to be used
+*
 * Return: 0
 */
 
