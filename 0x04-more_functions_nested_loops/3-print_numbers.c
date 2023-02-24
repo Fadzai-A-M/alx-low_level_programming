@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 #include "main.h"
 
 /**
@@ -7,6 +5,7 @@
  *
  * Return: Always 0.
  */
+
 void print_numbers(void)
 
 {
