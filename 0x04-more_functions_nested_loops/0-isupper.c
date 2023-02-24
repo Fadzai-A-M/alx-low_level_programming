@@ -5,14 +5,13 @@
  *
  * @c: value used
  *
- *  Return Always 0 (success)
+ * Return: 0 or 1
  */
 int _isupper(int c)
 
 {
-	c = 65;
+	if (c >= 'A' && c <= 'Z')
 
-	if (c <= 89)
 	{
 		return (1);
 
