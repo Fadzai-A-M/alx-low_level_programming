@@ -9,8 +9,12 @@ void print_alphabet_x10(void)
 
 {
 	int i;
+	int n;
 
-	i = 97;
+	while (n < 10)
+
+	{
+		i = 97
 
 	while (i <= 122)
 
@@ -22,4 +26,6 @@ void print_alphabet_x10(void)
 	}
 
 	_putchar('\n');
+
+	}
 }
