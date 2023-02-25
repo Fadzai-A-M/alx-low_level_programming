@@ -10,24 +10,15 @@ void print_alphabet_x10(void)
 {
 	int i;
 
-	int count;
+	i = 97;
 
-	count = 0;
-
-	while (count < 10)
+	while (i <= 122)
 
 	{
-		i = 97;
+		_putchar(i);
 
-		while (i <= 122)
+		i++;
 
-		{
-			_putchar(i);
-
-			i++;
-		}
-
-		count++;
 	}
 
 	_putchar('\n');
