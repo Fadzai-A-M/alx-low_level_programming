@@ -6,26 +6,25 @@
  * Return: nothing.
  */
 
+
 void print_rev(char *k)
 {
-
 	int i = 0;
 
-		while (k[i] != '\0')
-		{
-			i++;
+	while (k[i] != '\0')
 
-			i--;
+	{
+		i++;
+	}
 
 
-				while (i >= 0)
-				{
-					_putchar(k[i]);
+	i--;
 
-					i--;
-				}
+	while (i >= 0)
+	{
+		_putchar(k[i]);
 
-		}
-	_puthcar('\n');
-
+		i--;
+	}
+	_putchar('\n');
 }
