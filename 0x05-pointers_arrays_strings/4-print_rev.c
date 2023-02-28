@@ -9,19 +9,23 @@
 void print_rev(char *k)
 {
 
-	int length = 0;
-	int i;
+	int i = 0;
 
-	while (k[length] != '\0')
-	{
-		length++;
-	}
+		while (k[i] != '\0')
+		{
+			i++;
 
-	for (i = length - 1; i >= 0; i--)
+			i--;
 
-	{
-		_putchar(k[length]);
 
-	}
-	_putchar('\n');
+				while (i >= 0)
+				{
+					_putchar(k[i]);
+
+					i--;
+				}
+
+		}
+	_puthcar('\n');
+
 }
