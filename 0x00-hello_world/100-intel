@@ -1,1 +1,1 @@
-gcc -S main.c
+gcc -S $CFILE > main.s
